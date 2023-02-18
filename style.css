@@ -98,19 +98,23 @@ meter {
     all: revert;
 }
 
+/* end of RESETCSS */
+
+
+
 .main{
     width:calc(100vw - 1px);
     height:calc(100vh - 1px);
 }
 
-img{
-    width:100%;
-
-}
-
 .imgcontainer{
     position: relative;
     max-width:479px;
+}
+
+img{
+    width:100%;
+
 }
 
 .flagscontainer{
